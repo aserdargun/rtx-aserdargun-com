@@ -1,0 +1,38 @@
+
+> rtx-spark-atlas@1.0.0 test
+> node --experimental-strip-types --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: selected SKU and Blender logical counts agree with documented target
+ok 1 - selected SKU and Blender logical counts agree with documented target
+  ---
+  duration_ms: 0.624625
+  type: 'test'
+  ...
+# Subtest: every selectable model part has bilingual teaching content and survives GLB export
+ok 2 - every selectable model part has bilingual teaching content and survives GLB export
+  ---
+  duration_ms: 0.213166
+  type: 'test'
+  ...
+# Subtest: memory partition follows capped and floored published cases and conserves capacity
+ok 3 - memory partition follows capped and floored published cases and conserves capacity
+  ---
+  duration_ms: 0.124542
+  type: 'test'
+  ...
+# Subtest: educational arithmetic uses decimal GB and explicit utilization
+ok 4 - educational arithmetic uses decimal GB and explicit utilization
+  ---
+  duration_ms: 0.084625
+  type: 'test'
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 72.107792

@@ -1,0 +1,21 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+.DS_Store
+*.blend1
+.qa/
+*.tsbuildinfo
+blender/build/
+
+# Local vendor research copies are not publication assets.
+docs/research/oem-evidence/
+docs/research/nvidia-evidence/porting-guide/
+docs/research/nvidia-evidence/*.pdf
+docs/research/nvidia-evidence/*.png
+docs/research/nvidia-evidence/*.jpg
+docs/research/nvidia-evidence/portal-audit/*.html
+docs/research/nvidia-evidence/portal-audit/*.pdf
+
+drafts/
+.release/

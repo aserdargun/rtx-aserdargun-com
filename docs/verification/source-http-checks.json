@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-10-16T18:03:22.306Z",
+  "checks": [
+    {
+      "id": "keynote",
+      "url": "https://nvidianews.nvidia.com/file/nvidia-gtc-taipei-at-computex-keynote-slides?action=",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "id": "programming",
+      "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/index.html",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "id": "specs",
+      "url": "https://www.nvidia.com/en-us/products/rtx-spark/",
+      "status": 200,
+      "type": "text/html; charset=UTF-8"
+    },
+    {
+      "id": "overview",
+      "url": "https://docs.nvidia.com/rtx-spark/rtx-spark-porting-guide/latest/overview.html",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "id": "diagram",
+      "url": "https://docs.nvidia.com/rtx-spark/rtx-spark-porting-guide/latest/_images/N1xBlockDiagramPlaceHolder2.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "id": "cpu",
+      "url": "https://docs.nvidia.com/rtx-spark/rtx-spark-porting-guide/latest/portingandemulation/cpuspecific.html",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "id": "uma",
+      "url": "https://docs.nvidia.com/rtx-spark/rtx-spark-porting-guide/latest/uma/index.html",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "id": "cuda",
+      "url": "https://docs.nvidia.com/rtx-spark/rtx-spark-porting-guide/latest/uma/umacuda.html",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "id": "launch",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "id": "power",
+      "url": "https://docs.nvidia.com/rtx-spark/rtx-spark-porting-guide/latest/power/index.html",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "id": "simd",
+      "url": "https://docs.nvidia.com/rtx-spark/rtx-spark-porting-guide/latest/porting/simd.html",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "id": "windows",
+      "url": "https://docs.nvidia.com/rtx-spark/rtx-spark-porting-guide/latest/portingandemulation/windowsarmosn1x.html",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "id": "ordering",
+      "url": "https://docs.nvidia.com/rtx-spark/rtx-spark-porting-guide/latest/portingandemulation/volatilesoutlinedatomics.html",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "id": "identification",
+      "url": "https://docs.nvidia.com/rtx-spark/rtx-spark-porting-guide/latest/gpu-identification.html",
+      "status": 200,
+      "type": "text/html"
+    }
+  ]
+}

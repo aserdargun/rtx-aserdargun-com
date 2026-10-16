@@ -1,0 +1,16 @@
+import { NodeIO } from '@gltf-transform/core';
+import { dedup, prune, weld } from '@gltf-transform/functions';
+import { readFile, writeFile, stat } from 'node:fs/promises';
+import validator from 'gltf-validator';
+const input = 'blender/build/rtx-spark-n1x-128gb.raw.glb';
+const output = 'public/models/rtx-spark-n1x-128gb.glb';
+const io = new NodeIO();
+const doc = await io.read(input);
+await doc.transform(dedup(), weld(), prune({ keepLeaves: true }));
+await io.write(output, doc);
+const data = await readFile(output);
+const validation = await validator.validateBytes(new Uint8Array(data), { uri: output });
+const report = { inputBytes: (await stat(input)).size, outputBytes: data.length, meshes: doc.getRoot().listMeshes().length, materials: doc.getRoot().listMaterials().length, selectableParts: doc.getRoot().listNodes().filter(n => n.getExtras().partId).length, validation: validation.issues };
+await writeFile('docs/verification/model-validation.json', JSON.stringify(report, null, 2));
+console.log(JSON.stringify(report, null, 2));
+if (validation.issues.numErrors) process.exitCode = 1;

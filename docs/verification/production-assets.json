@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-16",
+  "scope": "local-production-preview",
+  "baseURL": "http://127.0.0.1:4318/",
+  "assets": [
+    {
+      "path": "index.html",
+      "httpStatus": 200,
+      "bytes": 815,
+      "sha256": "fe3af2a1924afa8e733ca2c066cd51d998250ceab1ee5fa9f5f2b0d6c9e4e4a6",
+      "matchesDist": true
+    },
+    {
+      "path": "models/architecture.json",
+      "httpStatus": 200,
+      "bytes": 13319,
+      "sha256": "6aeea5424ca48e99ef7a8e3a466c881b172d1098138feaf0c592c79335fa860d",
+      "matchesDist": true
+    },
+    {
+      "path": "models/rtx-spark-n1x-128gb.glb",
+      "httpStatus": 200,
+      "bytes": 6446428,
+      "sha256": "f59abe30af052c91df3299e8c263cf72c9399d7987ff27667e861e37932e82dd",
+      "matchesDist": true
+    },
+    {
+      "path": "models/rtx-spark-n1x-128gb.blend",
+      "httpStatus": 200,
+      "bytes": 1495263,
+      "sha256": "2758b67af04e49e872af8955d6cbca3a99267244b91be0e880f3550f84bd1b53",
+      "matchesDist": true
+    },
+    {
+      "path": "models/architecture-poster.png",
+      "httpStatus": 200,
+      "bytes": 1389377,
+      "sha256": "fbb71f73e8ae43d2a7f911c8d004def8f81c1d5b89bd3ee764e29f34fcb8e622",
+      "matchesDist": true
+    }
+  ],
+  "downloadedPng": {
+    "validSignature": true,
+    "width": 978,
+    "height": 615,
+    "bytes": 313193
+  },
+  "publicDeploymentVerified": false
+}

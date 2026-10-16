@@ -1,0 +1,729 @@
+{
+  "product": "NVIDIA RTX Spark N1X",
+  "memoryGB": 128,
+  "cpuCores": 20,
+  "performanceCores": 10,
+  "efficiencyCores": 10,
+  "cudaCores": 6144,
+  "memoryBandwidthGBs": 300,
+  "c2cBandwidthGBs": 600,
+  "physicalScale": false,
+  "cudaMarkerLayout": "96 by 64 count grid; not SM topology",
+  "memoryBusBits": 256,
+  "diagramURL": "https://docs.nvidia.com/rtx-spark/rtx-spark-porting-guide/latest/_images/N1xBlockDiagramPlaceHolder2.png",
+  "reviewedOn": "2026-10-16",
+  "representation": "detailed-representative-architecture-not-physical-floorplan",
+  "parts": [
+    {
+      "id": "cpu0",
+      "label": "CPU 0",
+      "category": "cpu",
+      "source": "diagram",
+      "rect": [
+        35,
+        50,
+        130,
+        78
+      ],
+      "anchor": [
+        -4.05,
+        0.48,
+        -1.16
+      ],
+      "layer": 1.3
+    },
+    {
+      "id": "cpu0_e0",
+      "label": "Cortex-A725 1",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -4.529999999999999,
+        0.59,
+        -1.17
+      ],
+      "layer": 1.65,
+      "logicalCore": 0
+    },
+    {
+      "id": "cpu0_e1",
+      "label": "Cortex-A725 2",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -4.289999999999999,
+        0.59,
+        -1.17
+      ],
+      "layer": 1.65,
+      "logicalCore": 1
+    },
+    {
+      "id": "cpu0_e2",
+      "label": "Cortex-A725 3",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -4.049999999999999,
+        0.59,
+        -1.17
+      ],
+      "layer": 1.65,
+      "logicalCore": 2
+    },
+    {
+      "id": "cpu0_e3",
+      "label": "Cortex-A725 4",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -3.8099999999999996,
+        0.59,
+        -1.17
+      ],
+      "layer": 1.65,
+      "logicalCore": 3
+    },
+    {
+      "id": "cpu0_e4",
+      "label": "Cortex-A725 5",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -3.5699999999999994,
+        0.59,
+        -1.17
+      ],
+      "layer": 1.65,
+      "logicalCore": 4
+    },
+    {
+      "id": "cpu0_p0",
+      "label": "Cortex-X925 1",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -4.529999999999999,
+        0.59,
+        -0.9349999999999999
+      ],
+      "layer": 1.65,
+      "logicalCore": 5
+    },
+    {
+      "id": "cpu0_p1",
+      "label": "Cortex-X925 2",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -4.289999999999999,
+        0.59,
+        -0.9349999999999999
+      ],
+      "layer": 1.65,
+      "logicalCore": 6
+    },
+    {
+      "id": "cpu0_p2",
+      "label": "Cortex-X925 3",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -4.049999999999999,
+        0.59,
+        -0.9349999999999999
+      ],
+      "layer": 1.65,
+      "logicalCore": 7
+    },
+    {
+      "id": "cpu0_p3",
+      "label": "Cortex-X925 4",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -3.8099999999999996,
+        0.59,
+        -0.9349999999999999
+      ],
+      "layer": 1.65,
+      "logicalCore": 8
+    },
+    {
+      "id": "cpu0_p4",
+      "label": "Cortex-X925 5",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -3.5699999999999994,
+        0.59,
+        -0.9349999999999999
+      ],
+      "layer": 1.65,
+      "logicalCore": 9
+    },
+    {
+      "id": "dsu0",
+      "label": "DSU",
+      "category": "cache",
+      "source": "diagram",
+      "rect": [
+        35,
+        136,
+        130,
+        39
+      ],
+      "anchor": [
+        -4.05,
+        0.48,
+        -0.495
+      ],
+      "layer": 0.7
+    },
+    {
+      "id": "cpu1",
+      "label": "CPU 1",
+      "category": "cpu",
+      "source": "diagram",
+      "rect": [
+        186,
+        50,
+        130,
+        78
+      ],
+      "anchor": [
+        -2.54,
+        0.48,
+        -1.16
+      ],
+      "layer": 1.3
+    },
+    {
+      "id": "cpu1_e0",
+      "label": "Cortex-A725 6",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -3.02,
+        0.59,
+        -1.17
+      ],
+      "layer": 1.65,
+      "logicalCore": 10
+    },
+    {
+      "id": "cpu1_e1",
+      "label": "Cortex-A725 7",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -2.7800000000000002,
+        0.59,
+        -1.17
+      ],
+      "layer": 1.65,
+      "logicalCore": 11
+    },
+    {
+      "id": "cpu1_e2",
+      "label": "Cortex-A725 8",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -2.54,
+        0.59,
+        -1.17
+      ],
+      "layer": 1.65,
+      "logicalCore": 12
+    },
+    {
+      "id": "cpu1_e3",
+      "label": "Cortex-A725 9",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -2.3,
+        0.59,
+        -1.17
+      ],
+      "layer": 1.65,
+      "logicalCore": 13
+    },
+    {
+      "id": "cpu1_e4",
+      "label": "Cortex-A725 10",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -2.06,
+        0.59,
+        -1.17
+      ],
+      "layer": 1.65,
+      "logicalCore": 14
+    },
+    {
+      "id": "cpu1_p0",
+      "label": "Cortex-X925 6",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -3.02,
+        0.59,
+        -0.9349999999999999
+      ],
+      "layer": 1.65,
+      "logicalCore": 15
+    },
+    {
+      "id": "cpu1_p1",
+      "label": "Cortex-X925 7",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -2.7800000000000002,
+        0.59,
+        -0.9349999999999999
+      ],
+      "layer": 1.65,
+      "logicalCore": 16
+    },
+    {
+      "id": "cpu1_p2",
+      "label": "Cortex-X925 8",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -2.54,
+        0.59,
+        -0.9349999999999999
+      ],
+      "layer": 1.65,
+      "logicalCore": 17
+    },
+    {
+      "id": "cpu1_p3",
+      "label": "Cortex-X925 9",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -2.3,
+        0.59,
+        -0.9349999999999999
+      ],
+      "layer": 1.65,
+      "logicalCore": 18
+    },
+    {
+      "id": "cpu1_p4",
+      "label": "Cortex-X925 10",
+      "category": "cpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        -2.06,
+        0.59,
+        -0.9349999999999999
+      ],
+      "layer": 1.65,
+      "logicalCore": 19
+    },
+    {
+      "id": "dsu1",
+      "label": "DSU",
+      "category": "cache",
+      "source": "diagram",
+      "rect": [
+        186,
+        136,
+        130,
+        39
+      ],
+      "anchor": [
+        -2.54,
+        0.48,
+        -0.495
+      ],
+      "layer": 0.7
+    },
+    {
+      "id": "fabric",
+      "label": "Fabric",
+      "category": "cache",
+      "source": "diagram",
+      "rect": [
+        35,
+        190,
+        280,
+        58
+      ],
+      "anchor": [
+        -3.3,
+        0.48,
+        0.14
+      ],
+      "layer": 0.7
+    },
+    {
+      "id": "display",
+      "label": "Display",
+      "category": "io",
+      "source": "diagram",
+      "rect": [
+        360,
+        23,
+        130,
+        40
+      ],
+      "anchor": [
+        -0.8,
+        0.48,
+        -1.62
+      ],
+      "layer": 1.0
+    },
+    {
+      "id": "dla",
+      "label": "DLA / NPU",
+      "category": "io",
+      "source": "diagram",
+      "rect": [
+        360,
+        72,
+        130,
+        39
+      ],
+      "anchor": [
+        -0.8,
+        0.48,
+        -1.135
+      ],
+      "layer": 1.0
+    },
+    {
+      "id": "isp",
+      "label": "Camera / ISP",
+      "category": "io",
+      "source": "diagram",
+      "rect": [
+        360,
+        119,
+        130,
+        50
+      ],
+      "anchor": [
+        -0.8,
+        0.48,
+        -0.61
+      ],
+      "layer": 1.0
+    },
+    {
+      "id": "vic",
+      "label": "VIC",
+      "category": "io",
+      "source": "diagram",
+      "rect": [
+        360,
+        178,
+        130,
+        49
+      ],
+      "anchor": [
+        -0.8,
+        0.48,
+        -0.025
+      ],
+      "layer": 1.0
+    },
+    {
+      "id": "audio",
+      "label": "Audio",
+      "category": "io",
+      "source": "diagram",
+      "rect": [
+        360,
+        235,
+        130,
+        46
+      ],
+      "anchor": [
+        -0.8,
+        0.48,
+        0.53
+      ],
+      "layer": 1.0
+    },
+    {
+      "id": "slc",
+      "label": "SLC \u00b7 System Level Cache",
+      "category": "cache",
+      "source": "diagram",
+      "rect": [
+        34,
+        288,
+        470,
+        37
+      ],
+      "anchor": [
+        -2.36,
+        0.48,
+        1.015
+      ],
+      "layer": 0.5
+    },
+    {
+      "id": "dram",
+      "label": "DRAM Controller",
+      "category": "memory",
+      "source": "diagram",
+      "rect": [
+        34,
+        332,
+        470,
+        49
+      ],
+      "anchor": [
+        -2.36,
+        0.48,
+        1.515
+      ],
+      "layer": 0.6
+    },
+    {
+      "id": "c2c_s",
+      "label": "C2C",
+      "category": "link",
+      "source": "diagram",
+      "rect": [
+        515,
+        22,
+        36,
+        360
+      ],
+      "anchor": [
+        0.28,
+        0.48,
+        -0.03
+      ],
+      "layer": 0.8
+    },
+    {
+      "id": "c2c_g",
+      "label": "C2C",
+      "category": "link",
+      "source": "diagram",
+      "rect": [
+        580,
+        23,
+        38,
+        359
+      ],
+      "anchor": [
+        0.94,
+        0.48,
+        -0.025
+      ],
+      "layer": 0.8
+    },
+    {
+      "id": "support",
+      "label": "Support Logic",
+      "category": "gpu",
+      "source": "diagram",
+      "rect": [
+        630,
+        24,
+        82,
+        356
+      ],
+      "anchor": [
+        1.66,
+        0.48,
+        -0.03
+      ],
+      "layer": 0.7
+    },
+    {
+      "id": "rc",
+      "label": "RC",
+      "category": "io",
+      "source": "diagram",
+      "rect": [
+        732,
+        23,
+        68,
+        38
+      ],
+      "anchor": [
+        2.61,
+        0.48,
+        -1.63
+      ],
+      "layer": 1.1
+    },
+    {
+      "id": "gpu",
+      "label": "Blackwell iGPU",
+      "category": "gpu",
+      "source": "diagram",
+      "rect": [
+        727,
+        71,
+        250,
+        310
+      ],
+      "anchor": [
+        3.47,
+        0.48,
+        0.21
+      ],
+      "layer": 1.2
+    },
+    {
+      "id": "cuda",
+      "label": "6,144 CUDA",
+      "category": "gpu",
+      "source": "documented-count-illustrative-placement",
+      "anchor": [
+        3.47,
+        0.52,
+        0.09
+      ],
+      "layer": 1.35,
+      "logicalCount": 6144
+    },
+    {
+      "id": "tensor",
+      "label": "TENSOR 5",
+      "category": "gpu",
+      "source": "schematic-function-region-not-unit-count",
+      "anchor": [
+        2.91,
+        0.59,
+        1.1
+      ],
+      "layer": 1.65
+    },
+    {
+      "id": "rt",
+      "label": "RT 4",
+      "category": "gpu",
+      "source": "schematic-function-region-not-unit-count",
+      "anchor": [
+        4.03,
+        0.59,
+        1.1
+      ],
+      "layer": 1.65
+    },
+    {
+      "id": "ep",
+      "label": "EP",
+      "category": "io",
+      "source": "diagram",
+      "rect": [
+        733,
+        78,
+        66,
+        38
+      ],
+      "anchor": [
+        2.61,
+        0.5549999999999999,
+        -1.08
+      ],
+      "layer": 1.6
+    },
+    {
+      "id": "ofa",
+      "label": "OFA",
+      "category": "io",
+      "source": "diagram",
+      "rect": [
+        820,
+        78,
+        69,
+        38
+      ],
+      "anchor": [
+        3.495,
+        0.5549999999999999,
+        -1.08
+      ],
+      "layer": 1.6
+    },
+    {
+      "id": "encode",
+      "label": "encode",
+      "category": "io",
+      "source": "diagram",
+      "rect": [
+        900,
+        78,
+        70,
+        38
+      ],
+      "anchor": [
+        4.3,
+        0.5549999999999999,
+        -1.08
+      ],
+      "layer": 1.6
+    },
+    {
+      "id": "decode",
+      "label": "decode",
+      "category": "io",
+      "source": "diagram",
+      "rect": [
+        900,
+        122,
+        70,
+        38
+      ],
+      "anchor": [
+        4.3,
+        0.5549999999999999,
+        -0.64
+      ],
+      "layer": 1.6
+    },
+    {
+      "id": "l2",
+      "label": "Graphics L2",
+      "category": "cache",
+      "source": "diagram",
+      "rect": [
+        745,
+        327,
+        217,
+        45
+      ],
+      "anchor": [
+        3.485,
+        0.5549999999999999,
+        1.445
+      ],
+      "layer": 1.6
+    },
+    {
+      "id": "memory",
+      "label": "128 GB \u00b7 LPDDR5X",
+      "category": "memory",
+      "source": "diagram",
+      "rect": [
+        185,
+        453,
+        600,
+        66
+      ],
+      "anchor": [
+        -0.2,
+        0.48,
+        2.81
+      ],
+      "layer": 0.3
+    }
+  ]
+}
