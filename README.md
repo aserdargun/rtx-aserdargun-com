@@ -4,7 +4,7 @@
 
 A detailed, representative **NVIDIA RTX Spark N1X / 128 GB** architecture explorer built with **Blender, Three.js, React and TypeScript**. The selected configuration has 20 Arm CPU cores and 6,144 CUDA cores. English and Turkish are available throughout the application.
 
-**Status:** representative application implemented and locally validated. No public deployment, custom-domain activation or portfolio link has been performed. The intended release address is `https://rtx.aserdargun.com/`.
+**Status:** release workflow prepared for https://rtx.aserdargun.com/. Deployment identity and asset hashes are exposed in `/release.json`; live acceptance evidence is recorded separately.
 
 ## Explore
 
@@ -66,4 +66,4 @@ The original physical-blueprint search is preserved in [English findings](docs/r
 
 ## Release boundary
 
-`public/staticwebapp.config.json` prepares static-host routing, asset caching and GLB/Blender MIME types. Public release still requires the selected hosting resource, verified DNS/TLS at `rtx.aserdargun.com`, a browser check of the deployed bundle, and a link from `aserdargun.com`. Those steps have not run. Independent educational project; not produced or endorsed by NVIDIA.
+`public/staticwebapp.config.json` prepares static-host routing, asset caching and GLB/Blender MIME types. Public release still requires the selected hosting resource, verified DNS/TLS at `rtx.aserdargun.com`, a browser check of the deployed bundle, and a link from `aserdargun.com`. Check the release evidence before treating these steps as complete. Independent educational project; not produced or endorsed by NVIDIA.

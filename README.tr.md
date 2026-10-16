@@ -4,7 +4,7 @@
 
 **NVIDIA RTX Spark N1X / 128 GB** için **Blender, Three.js, React ve TypeScript** ile geliştirilen ayrıntılı temsili mimari atlası. Seçilen yapılandırmada 20 Arm CPU ve 6.144 CUDA çekirdeği bulunur. Uygulama Türkçe ve İngilizce kullanılabilir.
 
-**Durum:** Temsili uygulama geliştirildi ve yerelde doğrulandı. Yayın, özel alan adı etkinleştirmesi veya portföy bağlantısı yapılmadı. Hedef yayın adresi `https://rtx.aserdargun.com/`.
+**Durum:** https://rtx.aserdargun.com/ için yayın iş akışı hazırlandı. Yayın kimliği ve dosya özetleri `/release.json` içinde sunulur; canlı kabul kanıtları ayrıca kaydedilir.
 
 ## Keşif özellikleri
 
@@ -66,4 +66,4 @@ Kullanıcı 16 Ekim 2026'da kapsamı **“temsili ama çok ayrıntılı şekilde
 
 ## Yayın sınırı
 
-`public/staticwebapp.config.json` statik sunucu yönlendirmelerini, önbelleği ve GLB/Blender MIME türlerini hazırlar. Yayın için barındırma kaynağı, `rtx.aserdargun.com` DNS/TLS doğrulaması, yayınlanan paketin tarayıcı kontrolü ve `aserdargun.com` bağlantısı gerekir. Bu adımlar çalıştırılmadı. NVIDIA tarafından üretilmiş veya onaylanmış olmayan bağımsız eğitim projesidir.
+`public/staticwebapp.config.json` statik sunucu yönlendirmelerini, önbelleği ve GLB/Blender MIME türlerini hazırlar. Yayın için barındırma kaynağı, `rtx.aserdargun.com` DNS/TLS doğrulaması, yayınlanan paketin tarayıcı kontrolü ve `aserdargun.com` bağlantısı gerekir. Bu adımların tamamlandığını yayın kanıtları üzerinden kontrol edin. NVIDIA tarafından üretilmiş veya onaylanmış olmayan bağımsız eğitim projesidir.
